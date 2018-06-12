@@ -21,10 +21,10 @@ title_separator          : "-"
 name                     : "UF Carpentries Club"
 description              : "Organizers of Software and Data Carpentry workshops at the University of Florida"
 url                      : http://www.uf-carpentry.org/
-baseurl                  : 
+baseurl                  :
 repository               : https://github.com/UF-Carpentry/website
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-breadcrumbs            : true # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
@@ -75,7 +75,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "UFCarpentries"
 facebook:
   username               :
   app_id                 :
@@ -110,7 +110,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : uf-carpentry
+  github           : "uf-carpentry"
   gitlab           :
   google_plus      :
   keybase          :
@@ -122,7 +122,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : "UFCarpentries"
   vine             :
   weibo            :
   xing             :
@@ -167,11 +167,11 @@ encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Collections
-collections: 
-  events: 
+collections:
+  events:
     output: true
     permalink: /:collection/:path/
-  minutes: 
+  minutes:
     output: true
     permalink: /:collection/:path/
 
